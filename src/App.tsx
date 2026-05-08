@@ -101,7 +101,7 @@ const App = () => {
                             image={item.image}
                             count={currentIngredient ? currentIngredient.count : 0}
                             add={() => addIngredient(item.name)}
-                            delete={() => deleteIngredient(item.name)}
+                            remove={() => deleteIngredient(item.name)}
                         />
                     );
                 })}
